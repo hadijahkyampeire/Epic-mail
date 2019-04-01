@@ -1,0 +1,34 @@
+{
+  "name": "Epic-mail",
+  "version": "1.0.0",
+  "description": "A web app that helps people exchange messages/information over the internet.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hadijahkyampeire/Epic-mail.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hadijahkyampeire/Epic-mail/issues"
+  },
+  "homepage": "https://github.com/hadijahkyampeire/Epic-mail#readme",
+  "dependencies": {
+    "node-sass": "^4.11.0",
+    "react": "^16.8.6",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "^2.1.8"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
