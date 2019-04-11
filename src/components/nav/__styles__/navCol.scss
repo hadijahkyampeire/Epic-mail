@@ -1,0 +1,42 @@
+@import 'shared';
+
+.navcol {
+  height: 100%;
+  width: 15rem;
+  padding: 1.25rem $navcol-horizontal-padding;
+  position: fixed;
+  left: 0;
+  background-color: #fff;
+  z-index: 999;
+  border-right: 1px solid #ccd4dc;
+  display: flex;
+  flex-direction: column;
+
+  .navlink {
+    color: #8a9cb0;
+    font-size: 1rem;
+    font-weight: 300;
+    text-decoration: none;
+    margin: 0.75rem 0;
+
+    display: flex;
+    align-items: center;
+  }
+
+  .navlink:hover {
+    text-decoration: underline;
+  }
+
+  .navlink.active {
+    font-weight: 500;
+    color: #475b73;
+  }
+
+  .navlink svg {
+    margin-right: 1.125rem;
+  }
+
+  .navlink.active svg {
+    opacity: 1;
+  }
+}

@@ -4,16 +4,16 @@ import { FaceBook, Linkedin, Google } from 'components/icons';
 class SignUp extends React.Component {
   render() {
     return (
-      <form action="#">
+      <form >
         <h1>Create Account</h1>
         <div className="social-container">
-          <a href="#" className="social">
+          <a href="#!" className="social">
             <FaceBook />
           </a>
-          <a href="#" className="social">
+          <a href="#!" className="social">
             <Linkedin />
           </a>
-          <a href="#" className="social">
+          <a href="#!" className="social">
             <Google />
           </a>
         </div>

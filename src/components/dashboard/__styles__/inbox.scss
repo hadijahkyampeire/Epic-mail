@@ -1,0 +1,38 @@
+.dashboard {
+  min-width: fit-content;
+  width: 100%;
+  max-width: 100%;
+  display: block;
+  background-color: white;
+  flex-direction: column;
+  align-items: center;
+}
+.dashboard > section {
+  margin-bottom: 2.5rem;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+td {
+  display: flex;
+  flex-direction: row;
+  input {
+    width: 15px;
+  }
+  p {
+    margin: auto 2px;
+  }
+}

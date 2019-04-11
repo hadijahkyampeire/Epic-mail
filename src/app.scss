@@ -1,0 +1,36 @@
+@import 'shared';
+html {
+  box-sizing: border-box;
+  overflow: auto;
+  height: 100%;
+  background-color: #fafafa;
+}
+
+body {
+  margin: 0;
+  background-color: #fafafa;
+  min-height: 100%;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+main {
+  max-width: 110rem;
+  width: 100%;
+  min-height: 100%;
+  overflow: auto;
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  &.authenticated {
+    padding: 1rem 3rem;
+    padding-left: $navcol-width + 3rem;
+  }
+
+  &.anonymous {
+    align-items: center;
+  }
+}

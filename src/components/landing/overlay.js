@@ -7,7 +7,6 @@ class Overlay extends React.Component {
   };
   addPanel = () => {
     const container = document.getElementById('container');
-    console.log(container);
     container.classList.add('right-panel-active');
   };
   render() {
@@ -22,7 +21,7 @@ class Overlay extends React.Component {
         </div>
         <div className="overlay-panel overlay-right">
           <h1>Hello, Friend!</h1>
-          <p>Enter your personal details and start journey with us</p>
+          <p>Enter your personal details and start journey with us on <strong>Epic Mail</strong></p>
           <button className="ghost" id="signUp" onClick={this.addPanel}>
             Sign Up
           </button>
