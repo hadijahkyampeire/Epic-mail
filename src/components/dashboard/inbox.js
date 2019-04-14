@@ -1,8 +1,24 @@
 import React from 'react';
-import { InBox } from 'components/icons';
+import { InBox, Delete } from 'components/icons';
 import './__styles__/inbox.scss';
 
 class InboxEmails extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      isHovering: false
+    };
+  }
+
+  handleMouseHover = () => {
+    this.setState(this.toggleHoverState);
+  };
+
+  toggleHoverState = state => {
+    return {
+      isHovering: !state.isHovering
+    };
+  };
   render() {
     return (
       <section className="dashboard">
@@ -18,15 +34,17 @@ class InboxEmails extends React.Component {
                 <th>Inbox messages</th>
               </tr>
               <tr>
-                <td>
+                <td onMouseEnter={this.handleMouseHover} onMouseLeave={this.handleMouseHover}>
                   <input type="checkbox" name="vehicle1" value="Bike" />
                   <p>I have a bike</p>
+                  {this.state.isHovering && <Delete />}
                 </td>
               </tr>
               <tr>
-                <td>
+                <td onMouseEnter={this.handleMouseHover} onMouseLeave={this.handleMouseHover}>
                   <input type="checkbox" name="vehicle1" value="Bike" />
-                  <p>I have a bike</p>
+                  <p>Email two</p>
+                  {this.state.isHovering && <Delete />}
                 </td>
               </tr>
               <tr>

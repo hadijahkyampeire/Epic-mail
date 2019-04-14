@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavCol } from './navCol';
-import { NavBar } from './navBar';
+import { NavBar } from './authenticatedNavBar';
+import { HomeNavBar } from './unauthenticatedNavBar';
 
 const EpicNav = ({ children }) => (
   <React.Fragment>

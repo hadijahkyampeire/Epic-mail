@@ -3,3 +3,4 @@ export * from './sent';
 export * from './drafts';
 export * from './newgroup';
 export * from './addEmail';
+export * from './groups';

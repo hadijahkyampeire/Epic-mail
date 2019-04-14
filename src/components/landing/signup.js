@@ -1,10 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 import { FaceBook, Linkedin, Google } from 'components/icons';
+import './__styles__/signup.scss';
 
 class SignUp extends React.Component {
   render() {
     return (
-      <form >
+      <form className="form-signup">
         <h1>Create Account</h1>
         <div className="social-container">
           <a href="#!" className="social">
@@ -21,9 +24,12 @@ class SignUp extends React.Component {
         <input type="text" placeholder="Name" />
         <input type="email" placeholder="Email" />
         <input type="password" placeholder="Password" />
-        <button onClick={this.changePanel}>Sign Up</button>
+        <Link to="/login">Already registered?</Link>
+        <Link to="/login">
+          <button>Sign Up</button>
+        </Link>
       </form>
     );
   }
 }
-export default SignUp;
+export { SignUp };

@@ -21,7 +21,7 @@ const NavBar = () => (
         </li>
         <div className="vertical-divider" />
         <li>
-          <a className="active" href="#logout">
+          <a className="active" href="/">
             <Logout />
           </a>
         </li>
