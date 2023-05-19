@@ -1,4 +1,3 @@
-@import 'shared';
 
 h1 {
   font-weight: bold;
@@ -18,7 +17,7 @@ span {
 }
 
 a {
-  color: $epic-color;
+  color: rgb(0, 128, 128);
   font-size: 14px;
   text-decoration: none;
   margin: 15px 0;

@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { toast } from 'react-toastify';
 
-import './index.scss';
+import './index.css';
 import App from './app';
 
 toast.configure({

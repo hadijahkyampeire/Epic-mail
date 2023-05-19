@@ -1,6 +1,6 @@
 import React from 'react';
 import { Logout, Envelope, Avatar } from 'components/icons';
-import './__styles__/navBar.scss';
+import './__styles__/navBar.css';
 
 const NavBar = () => (
   <div className="navbar">

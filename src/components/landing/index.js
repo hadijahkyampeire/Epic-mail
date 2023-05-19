@@ -2,7 +2,7 @@ import React from 'react';
 import { SignUp } from './signup';
 import { Login } from './login';
 import Overlay from './overlay';
-import './__styles__/index.scss';
+import './__styles__/index.css';
 
 export const LandingContainer = ({ history }) => {
   return (

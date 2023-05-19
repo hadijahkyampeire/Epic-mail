@@ -1,6 +1,6 @@
 import React from 'react';
 import { Cancel, Delete } from 'components/icons';
-import './__styles__/addEmail.scss';
+import './__styles__/addEmail.css';
 
 const AddEmailModal = () => (
   <div id="open-modal" class="modal-window">

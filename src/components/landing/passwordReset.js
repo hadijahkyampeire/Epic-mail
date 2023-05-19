@@ -1,7 +1,7 @@
 import React from 'react';
 import { toast } from 'react-toastify';
 import { Cancel } from 'components/icons';
-import './__styles__/passwordReset.scss';
+import './__styles__/passwordReset.css';
 
 const ResetPassword = () => (
   <div id="password-modal" className="password-modal-window">

@@ -29,10 +29,12 @@ tr:nth-child(even) {
 td {
   display: flex;
   flex-direction: row;
-  input {
-    width: 15px;
-  }
-  p {
-    margin: auto 2px;
-  }
+}
+
+td input {
+  width: 15px;
+}
+
+td p {
+  margin: auto 2px;
 }

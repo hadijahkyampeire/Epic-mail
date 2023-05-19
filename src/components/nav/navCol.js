@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { Drafts, Sent, InBox, UserGroups, Add, Avatar } from 'components/icons';
 import { AddEmailModal } from 'components/dashboard';
-import './__styles__/navCol.scss';
+import './__styles__/navCol.css';
 
 const Page = ({ Icon, name, to, ...props }) => (
   <NavLink className="navlink" to={to} {...props} exact>

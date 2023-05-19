@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
-import { LandingContainer, Login, SignUp } from 'components/landing';
+import { Login, SignUp } from 'components/landing';
 import { EpicNav } from 'components/nav';
 import { InboxEmails, SentEmails, DraftEmails, CreateNewGroup, Group } from 'components/dashboard';
-import './app.scss';
+import './app.css';
 
 class App extends React.Component {
   render() {

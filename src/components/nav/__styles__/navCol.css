@@ -1,9 +1,7 @@
-@import 'shared';
-
 .navcol {
   height: 100%;
   width: 15rem;
-  padding: 1.25rem $navcol-horizontal-padding;
+  padding: 1.25rem 2rem;
   position: fixed;
   left: 0;
   background-color: #fff;
@@ -22,7 +20,7 @@
     display: flex;
     align-items: center;
     .icon-user {
-      fill: $epic-color;
+      fill: rgb(0, 128, 128);
       width: 20px;
       height: 20px;
     }

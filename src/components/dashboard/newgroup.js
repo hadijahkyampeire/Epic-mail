@@ -1,6 +1,6 @@
 import React from 'react';
 import { UserGroups } from 'components/icons';
-import './__styles__/newgroup.scss';
+import './__styles__/newgroup.css';
 
 class CreateNewGroup extends React.Component {
   render() {

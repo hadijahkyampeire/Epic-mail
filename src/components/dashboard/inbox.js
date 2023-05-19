@@ -1,6 +1,6 @@
 import React from 'react';
 import { InBox, Delete } from 'components/icons';
-import './__styles__/inbox.scss';
+import './__styles__/inbox.css';
 
 class InboxEmails extends React.Component {
   constructor(props) {

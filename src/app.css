@@ -1,4 +1,4 @@
-@import 'shared';
+
 html {
   box-sizing: border-box;
   overflow: auto;
@@ -27,7 +27,7 @@ main {
   flex-direction: column;
   &.authenticated {
     padding: 1rem 3rem;
-    padding-left: $navcol-width + 3rem;
+    padding-left: 18rem;
   }
 
   &.anonymous {

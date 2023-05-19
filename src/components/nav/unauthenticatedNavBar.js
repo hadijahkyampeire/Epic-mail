@@ -1,6 +1,6 @@
 import React from 'react';
 import { Envelope } from 'components/icons';
-import './__styles__/navBar.scss';
+import './__styles__/navBar.css';
 
 const HomeNavBar = () => (
   <div className="navbar">

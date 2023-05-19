@@ -2,7 +2,7 @@ import React from 'react';
 import { FaceBook, Linkedin, Google } from 'components/icons';
 import { Link } from 'react-router-dom';
 import { ResetPassword } from './passwordReset';
-import './__styles__/login.scss';
+import './__styles__/login.css';
 
 class Login extends React.Component {
   handleLogin = () => {

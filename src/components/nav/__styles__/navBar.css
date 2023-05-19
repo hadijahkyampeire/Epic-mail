@@ -1,15 +1,16 @@
-@import 'shared';
 .navbar {
   box-shadow: 0 0.125rem 0.25rem 0 rgba(141, 152, 166, 0.39);
 }
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: $epic-color;
+  background-color: rgb(0, 128, 128);
   height: 5rem;
 }
+
 .left-items span {
   font-size: 25px;
   margin: auto;
@@ -19,13 +20,15 @@ ul {
 .right-items {
   display: flex;
   float: right;
-  .vertical-divider {
-    height: 5.6rem;
-    width: 1px;
-    background-color: $grey-light;
-    margin: 0 0.5rem;
-  }
 }
+
+.right-items .vertical-divider {
+  height: 5.6rem;
+  width: 1px;
+  background-color: white;
+  margin: 0 0.5rem;
+}
+
 li {
   float: left;
 }
@@ -39,5 +42,5 @@ li a {
 }
 
 li a:hover {
-  background-color: $epic-color;
+  background-color: rgb(0, 128, 128);
 }

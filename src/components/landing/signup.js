@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import { FaceBook, Linkedin, Google } from 'components/icons';
-import './__styles__/signup.scss';
+import './__styles__/signup.css';
 
 class SignUp extends React.Component {
   render() {
